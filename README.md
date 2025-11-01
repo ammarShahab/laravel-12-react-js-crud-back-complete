@@ -16,7 +16,7 @@
 
 9.In .env file change the DB_DATABASE=laravel_12_react_js_crud_back_api and in db create a new db according to the name "laravel_12_react_js_crud_back_api".
 
-10. now on "2025_10_30_195851_create_posts_table" file we will design the table header row what the table will contain. so add $table->string('title') and $table->text('body') in the schema. then run the command 'php artisan migrate' to create the table in the db. so go to the "laravel_12_react_js_crud_back" in db and there is a folder created name "posts" and there u will find the table according to the schema.
+10. now on "2025_10_30_195851_create_posts_table" file we will design the table header row what the table will contain. so add $table->string('title') and $table->text('body') in the schema. then run the command 'php artisan migrate' to create the table in the db. so go to the "laravel_12_react_js_crud_back_api" in db and there is a folder created name "posts" and there u will find the table according to the schema.
 
 // Now rest of the flow chart is "laravel-12-react-js-crud-back" file i.e form 12.
 
