@@ -20,7 +20,7 @@
 
 // Now rest of the flow chart is "laravel-12-react-js-crud-back" file i.e form 12.
 
-12. add fillable in a Model => Post file what i added in the schema i.e title and body in the db
+12. add fillable in a app => Model => Post file what i added in the schema i.e title and body in the db
 
 13. now to install api in terminal run "php artisan install:api" and in terminal when say "One new database migration has been published. Would you like to run all pending database migrations? (yes/no) [yes]"
 

@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-// 12. add fillable in a Model => Post file what i added in the schema i.e title and body in the db
+// 12. add fillable in a app => Model => Post file what i added in the schema i.e title and body in the db
 class Post extends Model
 {
     protected $fillable = ['title', 'body'];
