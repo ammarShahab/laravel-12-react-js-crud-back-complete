@@ -12,7 +12,7 @@
 
 7. go to xammp => mysql admin
 
-8. now to create model and migration for post so in terminal "php artisan make:model Post -m" which will create a file in database => migration "2025_10_30_195851_create_posts_table"
+8. now to create model and migration for post so in terminal "php artisan make:model Post -m" which will create 2 files one is in database => migration "2025_10_30_195851_create_posts_table" and another is app => Model => Post
 
 9.In .env file change the DB_DATABASE=laravel_12_react_js_crud_back_api and in db create a new db according to the name "laravel_12_react_js_crud_back_api".
 
