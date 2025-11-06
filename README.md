@@ -30,7 +30,7 @@
 
 16. now we are going to create resource controller by "php artisan make:controller PostController --resource" which will create a file name "PostController" in app => Http => Controllers => PostController where we will create all the crud methods.
 
-17. create Route then to see all routes run "php artisan route:list" u will see created all routes for PostController in terminal
+17. create Route then to see all routes run "php artisan route:list" u will see created all routes for PostController in terminal                                                           Note: here we created a rote name 'post' and from the frontend we will use that route for all the crud operation.
 
 18. checking in thunder client that the request is working or not on pasting the link 'http://127.0.0.1:8000/api/posts'
 
