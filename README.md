@@ -58,14 +58,6 @@
 
 22.0 delete a post
 
-**Note: Sometimes it needs to clear some cache if found error on Seeding or migration. Use the following command will Clear and regenerate framework directories**
-
--   php artisan cache:clear
--   php artisan config:clear
--   php artisan route:clear
--   php artisan view:clear
--   php artisan optimize:clear
-
 // Seeding (for sending fake data to the db). The seeding is not implemented this project. Seeding is applied in backebd_digi5 repo. The procedures are following:
 
 first make a seeder file in laravel
@@ -75,3 +67,11 @@ first make a seeder file in laravel
 3. name of the seeder table name is as like as name of Schema table name in my case "domain_host_heroes"
 4. In file Seeder => Database Seeder in run block add your seeder name in my case "DomainHostSeeder" (One time)
 5. run "php artisan db:seed" if found error then run "php artisan migrate:fresh --seed" which will add data to the db
+
+**Note: Sometimes it needs to clear some cache if found error on Seeding or migration. Use the following command will Clear and regenerate framework directories**
+
+-   php artisan cache:clear
+-   php artisan config:clear
+-   php artisan route:clear
+-   php artisan view:clear
+-   php artisan optimize:clear
