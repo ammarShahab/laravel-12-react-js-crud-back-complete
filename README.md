@@ -59,11 +59,12 @@
 22.0 delete a post
 
 **Note: Sometimes it needs to clear some cache if found error on Seeding or migration. Use the following command will Clear and regenerate framework directories**
-php artisan cache:clear
-php artisan config:clear
-php artisan route:clear
-php artisan view:clear
-php artisan optimize:clear
+
+-   php artisan cache:clear
+-   php artisan config:clear
+-   php artisan route:clear
+-   php artisan view:clear
+-   php artisan optimize:clear
 
 // Seeding (for sending fake data to the db). The seeding is not implemented this project. Seeding is applied in backebd_digi5 repo. The procedures are following:
 
