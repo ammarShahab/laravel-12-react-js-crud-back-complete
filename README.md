@@ -14,7 +14,7 @@
 
 8. now to create model and migration for post so in terminal "php artisan make:model Post -m" which will create 2 files one is in database => migration "2025_10_30_195851_create_posts_table" and another is app => Model => Post
 
-9.In .env file change the DB_DATABASE=laravel_12_react_js_crud_back_api and in db create a new db according to the name "laravel_12_react_js_crud_back_api".
+9. In .env file change the DB_DATABASE=laravel_12_react_js_crud_back_api and in db create a new db according to the name "laravel_12_react_js_crud_back_api".
 
 10. now on "2025_10_30_195851_create_posts_table" file we will design the table header row what the table will contain. so add $table->string('title') and $table->text('body') in the schema. then run the command 'php artisan migrate' to create the table in the db. so go to the "laravel_12_react_js_crud_back_api" in db and there is a folder created name "posts" and there u will find the table according to the schema.
 
@@ -30,11 +30,11 @@
 
 16. now we are going to create resource controller by "php artisan make:controller PostController --resource" which will create a file name "PostController" in app => Http => Controllers => PostController where we will create all the crud methods.
 
-17. create Route then to see all routes run "php artisan route:list" u will see created all routes for PostController in terminal                                                           Note: here we created a rote name 'post' and from the frontend we will use that route for all the crud operation.
+17. create Route then to see all routes run "php artisan route:list" u will see created all routes for PostController in terminal. Note: here we created a route name 'post' and from the frontend we will use that route for all the crud operation.
 
 18. checking in thunder client that the request is working or not on pasting the link 'http://127.0.0.1:8000/api/posts'
 
-18.1 then again also checked that is we are getting the value or not but we are getting the empty [] because there is no data is created.
+18.1. then again also checked that is we are getting the value or not but we are getting the empty [] because there is no data is created.
 
 18.2 creating data to the db we use the store function and using thunder client we will it is working or not.
 
@@ -58,10 +58,17 @@
 
 22.0 delete a post
 
+**Note: Sometimes it needs to clear some cache if found error on Seeding or migration. Use the following command will Clear and regenerate framework directories**
+php artisan cache:clear
+php artisan config:clear
+php artisan route:clear
+php artisan view:clear
+php artisan optimize:clear
 
 // Seeding (for sending fake data to the db). The seeding is not implemented this project. Seeding is applied in backebd_digi5 repo. The procedures are following:
 
 first make a seeder file in laravel
+
 1. run "php artisan make:seeder DomainHostSeeder"
 2. Then design the DomainHostSeeder for one of the page section in my case i am designing hero section.
 3. name of the seeder table name is as like as name of Schema table name in my case "domain_host_heroes"
