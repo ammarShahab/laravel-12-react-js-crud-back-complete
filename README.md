@@ -74,4 +74,6 @@ first make a seeder file in laravel
 -   php artisan config:clear
 -   php artisan route:clear
 -   php artisan view:clear
+-   Or run following one command to clear all the upper cache
+-   php artisan optimize:clear
 -   php artisan optimize:clear
